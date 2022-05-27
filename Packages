@@ -1,0 +1,314 @@
+Package: cgal
+Version: 4.14.1-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 43896
+Depends: boost, libc++, libgmp, libmpfr, zlib
+Filename: ./arm/cgal_4.14.1-1_arm.deb
+Size: 4683004
+MD5sum: fe507155e86f5d19a6f9d84e1f6845c0
+SHA1: d0b6499ad12445c42429035983e458019813e3c6
+SHA256: a0af6f437d4e7a61c97d248d44bdc408b137581aeb0e6776f3cfc8fd310cc5b6
+Homepage: https://www.cgal.org/
+Description: Computational Geometry Algorithms Library
+
+Package: double-conversion
+Version: 3.1.5
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 212
+Filename: ./arm/double-conversion_3.1.5_arm.deb
+Size: 44476
+MD5sum: 1ffb4800f4a93c7c417d9a7c1a8b6dad
+SHA1: f4bfb4ecd1a686318c7d65692ebfc8aa0b4427a9
+SHA256: e1b4bacf7ab3dbccff4f9c2234a5219bfea9c5bd1cd84e0859fb22b6be1e3d9b
+Homepage: https://github.com/google/double-conversion
+Description: Binary-decimal and decimal-binary routines for IEEE doubles
+
+Package: eigen
+Version: 3.3.7-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 7980
+Breaks: eigen-dev
+Replaces: eigen-dev
+Filename: ./arm/eigen_3.3.7-2_arm.deb
+Size: 797442
+MD5sum: cacfc489c63e56192ebf95bdd2db6500
+SHA1: cb0c35116eafe7aee9b64429ddcc63144899eacd
+SHA256: bee2c799fd7284d61c395ce3799e6e15ff07fab0e8db29a477b3960958432be1
+Homepage: http://eigen.tuxfamily.org
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
+
+Package: gap
+Version: 4.10.2-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 3300
+Depends: readline, libgmp, zlib
+Breaks: gap-dev
+Replaces: gap-dev
+Filename: ./arm/gap_4.10.2-1_arm.deb
+Size: 654672
+MD5sum: b585ee6bd3f6e198fa7b65cc00c9c38d
+SHA1: a8b4876cea6fe2c5c4c711c977e8e9a4e57b57fd
+SHA256: cdd3313fd2d39021f6688fbb3034ef8fcc6ad1364e4c78e2d6d362b483030b32
+Homepage: https://www.gap-system.org/
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+
+Package: gap-static
+Version: 4.10.2-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1916
+Depends: gap (= 4.10.2-1)
+Filename: ./arm/gap-static_4.10.2-1_arm.deb
+Size: 545034
+MD5sum: dabdfb09b51b807dbb905c2d2a86dee2
+SHA1: 57dabfbadf0c9ca23da0b1d2bb33b88fed61ccb1
+SHA256: 2b9f20871f307086d374001109d58d16b85be4267b91077edcda1120ec6794c0
+Homepage: https://www.gap-system.org/
+Description: Static libraries for gap
+
+Package: gdal
+Version: 3.0.1-1
+Architecture: arm
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Installed-Size: 15544
+Depends: libc++, openjpeg, libcurl, libtiff, libpng, proj, libiconv, libsqlite, libgeos
+Breaks: gdal-dev
+Replaces: gdal-dev
+Filename: ./arm/gdal_3.0.1-1_arm.deb
+Size: 4645002
+MD5sum: 0c86bef19c3b4673ec4447480a981628
+SHA1: 282969e0eca269f76168872772242e904497ae4e
+SHA256: 4aef78e256c03cc0f35c28fbef0422e5b6c2e83407e1c4116cb6647a7ea8d905
+Homepage: https://gdal.org
+Description: A translator library for raster and vector geospatial data formats
+
+Package: gdal-static
+Version: 3.0.1-1
+Architecture: arm
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Installed-Size: 39640
+Depends: gdal (= 3.0.1-1)
+Filename: ./arm/gdal-static_3.0.1-1_arm.deb
+Size: 7078124
+MD5sum: c5a0db8ea3f9fe3bf779d003365ea860
+SHA1: 7b5740b8ab679c6614afcc7bd203b4fe36fb7867
+SHA256: 2866f0d636bf61eafdf23346b62f7566d3206c213629270562c174dfd3d19115
+Homepage: https://gdal.org
+Description: Static libraries for gdal
+
+Package: gnucap
+Version: 20171003-4
+Architecture: arm
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 2064
+Depends: libc++, readline
+Breaks: gnucap-dev
+Replaces: gnucap-dev
+Filename: ./arm/gnucap_20171003-4_arm.deb
+Size: 565040
+MD5sum: 58d023e913961487dabd24dfc67bca6d
+SHA1: 6b74a532fc963c3425e2c73a47ed3c53328f7ca3
+SHA256: 125e4a30be58047912d51ef627d02162e23441041e9e0a9b78e26f3351ce7fb6
+Homepage: https://www.gnu.org/software/gnucap/gnucap.html
+Description: The Gnu Circuit Analysis Package
+
+Package: libgeos
+Version: 3.7.2-3
+Architecture: arm
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 3616
+Depends: libc++
+Breaks: libgeos-dev
+Replaces: libgeos-dev
+Filename: ./arm/libgeos_3.7.2-3_arm.deb
+Size: 565068
+MD5sum: 3453142a310064a197ef967895eee8db
+SHA1: 679b8fd03ed8af9c65a7a0bb579678943510f0a2
+SHA256: 357f6d2eca188d0e382d7ab45d240b82d7678d39ce012f6e0452dcffa920a834
+Homepage: https://geos.osgeo.org/
+Description: Geometry Engine, C++ port of the Java Topology Suite
+
+Package: libgeos-static
+Version: 3.7.2-3
+Architecture: arm
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 5832
+Depends: libgeos (= 3.7.2-3)
+Filename: ./arm/libgeos-static_3.7.2-3_arm.deb
+Size: 731108
+MD5sum: e32e7e59129fe119bc15a4a2a44fc89f
+SHA1: 46b939b82b1e7691c91ca84f51bea5553bb9bdfe
+SHA256: 09e6981829f04f8dc1646722f29cd15a20dcf8afd219a8a2edf20bfd25cb8a56
+Homepage: https://geos.osgeo.org/
+Description: Static libraries for libgeos
+
+Package: libhdf5
+Version: 1.10.5-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 50176
+Depends: libc++, libzopfli
+Breaks: libhdf5-dev
+Replaces: libhdf5-dev
+Filename: ./arm/libhdf5_1.10.5-2_arm.deb
+Size: 5880394
+MD5sum: f0102637c87be9fd8c164bdf261a8d11
+SHA1: 603612c8c12e1b1e98f9a8a51f063b5c8fdc85dd
+SHA256: 62bdaeecab888d83725955f514965c7fe7e9ceb21cb6097db411b84ab661cf02
+Homepage: https://portal.hdfgroup.org/display/support
+Description: Hierarchical Data Format 5 (HDF5)
+
+Package: libhdf5-static
+Version: 1.10.5-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 6532
+Depends: libhdf5 (= 1.10.5-2)
+Filename: ./arm/libhdf5-static_1.10.5-2_arm.deb
+Size: 1450676
+MD5sum: 5e351ecae4d78b55b7d7266b63b17363
+SHA1: c0bb52f523a27d9131dcb9d82a700df18a20522d
+SHA256: 2b172fe36f5cf40d3a2f182a4bb507a9d7ac8ca995ce10b531e9661cbe55ac5c
+Homepage: https://portal.hdfgroup.org/display/support
+Description: Static libraries for libhdf5
+
+Package: mapserver
+Version: 7.4.1-1
+Architecture: arm
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Installed-Size: 6268
+Depends: libc++, libiconv, freetype, libcurl, libcairo, libxml2, openjpeg, proj, gdal, libprotobuf-c
+Breaks: mapserver-dev
+Replaces: mapserver-dev
+Filename: ./arm/mapserver_7.4.1-1_arm.deb
+Size: 1231102
+MD5sum: a22ca29bca659658ed9133b7a5ef1847
+SHA1: 318ce0623311f9910f12312547279a05145ab3a3
+SHA256: d7bbf679434ad5b6709fd7ec89d7cd1f334eee266e826941683994e9cb8aa8b6
+Homepage: https://mapserver.org/
+Description: MapServer is CGI-based platform for publishing spatial data and interactive mapping applications to the web.
+
+Package: netcdf-c
+Version: 4.7.1-1
+Architecture: arm
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 1484
+Depends: libhdf5, libcurl, openssl, libnghttp2
+Breaks: netcdf-c-dev
+Replaces: netcdf-c-dev
+Filename: ./arm/netcdf-c_4.7.1-1_arm.deb
+Size: 473170
+MD5sum: d4aab9a2cda6c4af3bc2232b6a4d668f
+SHA1: 9e5dfb3d91a23aa1f3f9a59eaf311369511e7cd2
+SHA256: c20048ae351ff2b483f3fdcbd45b256983d502676dcfcf73634eb36e5c18ce93
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Description: NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+
+Package: netcdf-c-static
+Version: 4.7.1-1
+Architecture: arm
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 1444
+Depends: netcdf-c (= 4.7.1-1)
+Filename: ./arm/netcdf-c-static_4.7.1-1_arm.deb
+Size: 341200
+MD5sum: 354c13bd7f4538b5ea4c16224b90ad04
+SHA1: a7c6d6da92c83290a612964dd09dbd3719dfdcfd
+SHA256: 649b8c972d1053f9f4caf1fb54d65c282228d7864ad09bcaedf4310f6204382d
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Description: Static libraries for netcdf-c
+
+Package: openbabel
+Version: 3.0.0
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 17012
+Depends: libc++, libcairo, libxml2, eigen, boost
+Breaks: openbabel-dev
+Replaces: openbabel-dev
+Filename: ./arm/openbabel_3.0.0_arm.deb
+Size: 3518010
+MD5sum: 16d328ed3e95cbd6bbb5974acff264bc
+SHA1: d3c444bee3eca71fdfa4c1a1e6e1bc56bfeeeef8
+SHA256: 2dd95d182298ae5c3698863ec427c368b6670cdaedb4d10677c8fab54813793c
+Homepage: http://openbabel.org/wiki/Main_Page
+Description: Open Babel is a chemical toolbox designed to speak the many languages of chemical data
+
+Package: openmpi
+Version: 4.0.2-1
+Architecture: arm
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 6264
+Depends: libandroid-shmem
+Breaks: openmpi-dev
+Replaces: openmpi-dev
+Filename: ./arm/openmpi_4.0.2-1_arm.deb
+Size: 1981436
+MD5sum: c308ddd8acfe4df21613be75b7c2e311
+SHA1: 954b03f65cfe678aeb54a57b99c07767bbe6e9bf
+SHA256: d77dcf2988169a6e7fd4ee05da6c3ad4704d1ffafc0487883d5447b07bfd57b2
+Homepage: https://www.open-mpi.org
+Description: The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners
+
+Package: openmpi-static
+Version: 4.0.2-1
+Architecture: arm
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 8232
+Depends: openmpi (= 4.0.2-1)
+Filename: ./arm/openmpi-static_4.0.2-1_arm.deb
+Size: 1873636
+MD5sum: b99fa01c313d5bb37be2337b036648b7
+SHA1: 1f7631d3ac657d7b6a0f6ae6dc4d4d870a61de1f
+SHA256: 909b4d544e19f4869c73ca3887e23c34850c2206a9c9f9c2a06bc21959e73449
+Homepage: https://www.open-mpi.org
+Description: Static libraries for openmpi
+
+Package: openscad
+Version: 2019.05-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 4080
+Depends: boost, cgal, double-conversion, fontconfig, harfbuzz, libzip
+Filename: ./arm/openscad_2019.05-1_arm.deb
+Size: 1071280
+MD5sum: ce95b1c757cf24b82711906625bf287e
+SHA1: b1714d4cd4af336a38a2c8e52d7a6f1f93464fc2
+SHA256: 851d7927627f1b3be7ab2875d1f78445be50783af802164177e23427b3251e5b
+Homepage: http://openscad.org/
+Description: The programmers solid 3D CAD modeller (headless build)
+
+Package: osmctools
+Version: 0.9-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 276
+Depends: zlib
+Filename: ./arm/osmctools_0.9-1_arm.deb
+Size: 94212
+MD5sum: 4fc8e159a6c4a08a899b9189c9747f71
+SHA1: fc7ae060b95a4fe78d4fd220539f07b2bc2702ab
+SHA256: 77da8fb6288f1222da29c06061cb077db9de86adcc3de593f9a18009a5cf8abc
+Homepage: https://gitlab.com/osm-c-tools/osmctools
+Description: Simple tools for OpenStreetMap processing
+
+Package: proj
+Version: 6.2.0-1
+Architecture: arm
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 8036
+Depends: libc++, libsqlite, sqlite
+Breaks: proj-dev
+Replaces: proj-dev
+Filename: ./arm/proj_6.2.0-1_arm.deb
+Size: 1463140
+MD5sum: 6816c4116f06ca9363d66138ec51de9a
+SHA1: 83f93fa068cde826f2007dad1a2d47b5d5cf41ec
+SHA256: 7f4a4802d332c014961be9c4142be5e48c1c2c44700dc7467bda1f41e4e2d435
+Homepage: https://proj.org
+Description: Generic coordinate transformation software
+
